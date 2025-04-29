@@ -1,0 +1,36 @@
+/* Estilo general del cuerpo de la página */
+body {
+  font-family: Arial, sans-serif; 
+  background-image: linear-gradient(to right, #f0f0f0, #343333);
+  padding: 20px; 
+  text-align: center; 
+}
+
+/* Contenedor principal del formulario y gráfico */
+.container {
+  max-width: 600px; 
+  margin: auto; 
+  background: transparent;
+  padding: 30px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #050404; 
+  filter: drop-shadow(blur(5px) opacity(0.5)) drop-shadow(0 0 10px #000);
+}
+
+/* Espaciado inferior del formulario respecto al gráfico */
+form {
+  margin-bottom: 30px; 
+}
+
+/* Estilo compartido para los campos de entrada y el botón */
+input, button {
+  padding: 10px; 
+  margin: 5px; 
+  width: calc(30% - 10px); 
+  font-size: 16px; 
+}
+/* Estilo del área donde se dibuja el gráfico */
+canvas {
+  max-width: 100%; 
+  height: 300px; 
+}
